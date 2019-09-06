@@ -87,3 +87,36 @@ div #javascript{
   height: 15px;
 }
 /* Progress Bar End */
+
+/* Form Styling */
+.contact-form {
+  width: 70%;
+}
+.contact-form input, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(3, 129, 187);
+  box-sizing: border-box;
+}
+
+.contact-form label {
+  margin-right: 10px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.contact-form .btn {
+  width: 20%;
+  background-color: rgb(3, 129, 187);
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+}
+
+#error{
+  color: rgb(255, 0, 0);
+}
+

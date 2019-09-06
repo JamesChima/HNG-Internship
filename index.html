@@ -167,6 +167,30 @@
         <em>08034428922</em> 
       </p>
     </div>
+    <hr>
+    
+    <div class="contact-form">
+      <p id="error"></p> 
+      <h3>Send me a message!</h3>
+        
+      <form id="form" method="POST" action="james.php">
+        
+          <label for="fullname">Fullname</label>
+          <input type="text" placeholder="enter you name" id="fullname">
+    
+          <label for="email">Email</label>
+          <input type="text" placeholder="enter you email" id="email"> 
+    
+          <label for="email">Title</label>
+          <input type="text" id="title"> <br>
+       
+          <label for="textarea">Message</label>
+          <textarea cols="10" rows="20" id="textarea"></textarea>
+
+          <input type="submit" value="Send" class="btn">
+      </form>
+    </div>
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
